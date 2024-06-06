@@ -1,6 +1,7 @@
 package net.aryt.aryts_random_items.items;
 
 import net.aryt.aryts_random_items.ArytsRandomItemsMod;
+import net.aryt.aryts_random_items.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,6 +18,9 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.VIBRASLAP.get())).title(Component.translatable("creativetab.arim_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.VIBRASLAP.get());
+//                        pOutput.accept(ModBlocks.DOMAIN_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.TEST_BLOCK.get());
                     })
                     .build());
 

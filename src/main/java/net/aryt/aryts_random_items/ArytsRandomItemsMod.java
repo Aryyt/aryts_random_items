@@ -1,6 +1,7 @@
 package net.aryt.aryts_random_items;
 
 import com.mojang.logging.LogUtils;
+import net.aryt.aryts_random_items.block.ModBlocks;
 import net.aryt.aryts_random_items.items.ModCreativeModeTabs;
 import net.aryt.aryts_random_items.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -33,6 +34,7 @@ public class ArytsRandomItemsMod
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

@@ -1,4 +1,7 @@
 {
   "item.aryts_random_items.vibraslap": "Vibraslap",
-  "creativetab.arim_tab": "Aryt's Random Items Mod Tab"
+  "creativetab.arim_tab": "Aryt's Random Items Mod Tab",
+  "block.aryts_random_items.sapphire_block": "Block of Sapphire",
+  "block.aryts_random_items.test_block": "TEST"
+
 }

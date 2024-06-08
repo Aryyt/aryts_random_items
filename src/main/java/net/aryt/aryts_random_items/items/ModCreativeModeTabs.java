@@ -18,9 +18,11 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.VIBRASLAP.get())).title(Component.translatable("creativetab.arim_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.VIBRASLAP.get());
+                        pOutput.accept(ModItems.DOOMFIST.get());
 //                        pOutput.accept(ModBlocks.DOMAIN_BLOCK.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.TEST_BLOCK.get());
+                        pOutput.accept(ModItems.TESTITEM.get());
                     })
                     .build());
 
